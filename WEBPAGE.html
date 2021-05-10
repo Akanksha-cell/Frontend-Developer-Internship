@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>this is so epic</title>
+</head>
+<body background="image.jpg">
+      <style>
+body {
+  font-size: 28px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+input[type=submit]{
+  width: 20em; height: 2em; font-family: "batang"; font-size: 15px;
+}
+</style>
+</head>
+<body>
+
+
+<div class="header">
+  <font color="black" face="TIMES NEW ROMAN">
+    <h1 align="center"><b><u>MOVIE NOMINEES</u></b></h1>
+  </font> 
+</div>
+
+
+<ul>
+  <li><a href="web te ch.html">HOME</a></li>
+  <li><a href="watches.html">MOVIES</a></li>
+  <li><a href="login.html">LOGIN</a></li>
+</ul>
+div id="search">
+   <form action="/Resources/SiteSearch" id="siteSearchForm" method="post">
+      <label for="search-box">
+
+      SEARCH</label>
+      <div id="search-box-wrapper">
+         <input type="text" id="search-box">
+      </div>
+      <input id="searchText" name="searchText" type="hidden" value="testing"><input id="siteSearchUrl" name="siteSearchUrl" type="hidden" value="http://yboss.yahooapis.com/ysearch/limitedweb?format=xml&amp;sites=www.apprenticesearch.com&amp;q=testing">
+      <input type="image" src="/userfiles/images/E/buttons/go.png" id="search-button" value="GO" siteurl="www.apprenticesearch.com"><!-- www.apprenticesearch.com -->
+   </form>
+   <form id="apprenticeForm" action="http://www.omdbapi.com/?i=tt3896198&apikey=e38e2310" method="POST" target="_blank" onsubmit='submitSearch()'>
+    <input type="text" name="searchText" id="searchText" value=""/>
+    <input type="submit" value="Submit"/>
+    <input id="siteSearchUrl" name="siteSearchUrl" type="hidden" value="http://yboss.yahooapis.com/ysearch/limitedweb?format=xml&sites=www.apprenticesearch.com&q="/>
+</div>
+</div>
+<h1 align="center">
+   	  <font id="font2">
+        Register for Nominees Here!
+      </font>
+    </h1>
+  <p>
+  	 <center>
+  	<h2>
+   <form action="login" method="post">
+   	   <table>
+   	   	 <tr>
+   	   	 	<td>Name of the Movie:</td>
+   	   	 	<td>
+   	   	 		<input type="text" name="First">
+   	   	 	</td>
+   	   	 </tr>
+   	   	 <tr>
+   	   	 	 <form id="apprenticeForm" action="https://www.commonsensemedia.org/movie-reviews/the-notebook" onsubmit='submitSearch()'>
+   	   	 
+   	   	 </tr>
+   	   	 <tr>
+   	   	 	<td>
+   	   	 		<input type="submit" name="submit" value="Submit" >
+   	   	 	</td>
+   	   	 </tr>
+
+
+
+   	   </table>
+   </form>
+    </h2>
+     </center>
+  </p> 
+
+
+<hr size="3">
+<hr size="2">
+<hr size="1">
+<div>
+	<ul>
+		<font size="5" color="Yellow" id="font3">
+		 <li><a href="about.html">ABOUT US</a></li>
+		 <li><a class="active" href="contact.html">Register</a></li>
+		 <li><a href="help.html">HELP</a></li>
+	    </font>
+    </ul>
+     <div class="row">
+                <div class="col-lg-12">
+                    <div class="bs-component">
+                        <form class="well form-search" id="search-by-id-form" onsubmit="return false;">
+                        <fieldset>
+                            <legend>By ID</legend>
+                        </fieldset>
+                        <div>
+                            <label class="control-label" for="i">ID:</label>
+                            <input type="text" id="i" name="i" class="input-small" placeholder="IMDb ID">
+                            &nbsp;&nbsp;
+                           
+</div>
+
+ 
+</body>
+© 2019 Flex.com, Inc. All Rights Reserved.<br>
+<a href="#top"><font color="green" face="comic sans" size="5">TO TOP ^</font></a>
+</html>
